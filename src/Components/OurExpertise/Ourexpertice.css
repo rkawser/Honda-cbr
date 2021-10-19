@@ -1,0 +1,59 @@
+.expert-text{
+    text-align: justify;
+}
+.expert-text h2{
+   font-weight: bold;
+}
+.expert-doctor{
+    background-image: url('https://i.ibb.co/mF9Bsn3/home-bg6.jpg');
+    height:450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.expart-card{
+    border: 1px solid green;
+    padding: 20px;
+    border-radius: 10px;
+   margin:5px;
+}
+.expart-card{
+    background-color: #0046c0;
+    color: white;
+}
+
+
+.expart-card h4{
+    padding: 10px;
+    font-weight: 600;
+}
+.expart-card h6{
+    font-weight: 600;
+}
+
+.expart-icon{
+    font-size: 40px !important;
+   border: 1px solid rebeccapurple;
+   padding: 10px;
+   border-radius: 50%;
+   color:#0046c0 ;
+   background-color: white;
+}
+
+.main-expart{
+    display: flex;
+    align-items: center;
+    
+}
+
+.expert-bg{
+    background-image: url('https://i.ibb.co/5cWcN5T/home-bg5.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.expert-text span {
+    border-bottom: 5px solid #0046c0;
+}

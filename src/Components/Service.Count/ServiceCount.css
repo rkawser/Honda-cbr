@@ -1,0 +1,29 @@
+.icon-size{
+    font-size: 50px;
+    color: #1e478f;
+}
+body{
+    font-family: 'Old Standard TT', serif;
+}
+
+.main-count{
+background-image: url('https://i.ibb.co/mGB8rdX/home-bg3-83cb3ff230f3573ffbfa.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 20px;
+background-color: rgba(82, 81, 81, 0.555);
+background-blend-mode: overlay;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.main-count h1{
+    font-weight:bolder;
+    padding: 10px;
+    color: #1e478f;
+}
+
+.main-count h5{
+    font-weight: bolder;
+}

@@ -1,0 +1,52 @@
+
+
+
+.latest-card{
+    background-image: url('https://i.ibb.co/hXhw4nZ/home-bg11.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.latest-card2{
+    background-image: url('https://i.ibb.co/ZBvDc83/home-bg12.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.latest-card3{
+    background-image: url('https://i.ibb.co/5kCHhDc/home-bg13.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.blog-text{
+    text-align:justify;
+
+}
+
+.blog-text h2{
+   font-weight: bold;
+}
+.blog-text span {
+    border-bottom: 5px solid #0046c0;
+}
+
+.card-top{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;   
+}
+
+.latest-text{
+    text-align: justify;
+    padding:10px;
+}
+
+.latest-footer{
+    display: flex;
+    justify-content: space-between;
+    color: #0046c0;
+}

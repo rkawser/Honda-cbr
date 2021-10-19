@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+.slider-one{
+    background-image:url('https://i.ibb.co/hdXxsq6/slider1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.slider-two{
+    background-image:url('https://i.ibb.co/Z8vVnFW/slider2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.slider-text{
+    font-family: 'Old Standard TT', serif;
+    font-size: 60px;
+}
+
+.slider-text h1{
+  font-weight: 900;
+  color: #1e478f;
+}
+
+.btn-size:hover{
+background-color: black;
+color: white;
+}
+.btn-size{
+    background-color: #0046c0;
+    color: white;
+}
+
+.btn-size2{
+border: 1px solid black;
+
+}
+
+.btn-size2:hover{
+   background: #000;
+   color: white;
+  
+}

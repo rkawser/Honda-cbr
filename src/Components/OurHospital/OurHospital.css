@@ -1,0 +1,36 @@
+
+
+.doctor-img{
+    background-image: url('https://i.ibb.co/V2BpZ5g/home-bg4.jpg');
+    height: 500px;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius:10px;
+}
+
+.side-text{
+    background-image: url('https://i.ibb.co/5cWcN5T/home-bg5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.side-text{
+    text-align: justify;
+    padding: 20px;
+}
+
+.side-text h2{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.side-text p{
+    padding-bottom: 20px;
+}
+
+.side-text h5{
+
+    font-weight:600;
+}

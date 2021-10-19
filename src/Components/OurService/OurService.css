@@ -1,0 +1,9 @@
+
+.service-text h1{
+    border-bottom: 5px solid green;
+    display: inline-block;
+}
+
+.service-text{
+    text-align: justify;
+}

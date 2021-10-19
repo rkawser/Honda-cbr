@@ -1,0 +1,38 @@
+.bg-size{
+    border-radius: 20px;
+
+}
+
+.detail-image{
+    background-image: url('https://i.ibb.co/XYpSs2P/page-title-9c477085cf7e78cb1cfc.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.detail-image{
+    display: flex;
+    align-items: center;
+}
+
+.detail-image h1{
+   font-weight: bolder;
+   font-size: 60px;
+}
+
+.detail-image h5{
+    font-weight: bolder;
+    
+ }
+
+ .detail-top{
+     text-align: justify;   
+ }
+ 
+ .detail-top h3{
+     padding: 10px;
+ }

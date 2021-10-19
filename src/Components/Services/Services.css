@@ -1,0 +1,21 @@
+
+
+.service-image{
+    background-image: url('https://i.ibb.co/XYpSs2P/page-title-9c477085cf7e78cb1cfc.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+.service-image{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.service-image h1{
+    font-weight: bold;
+}

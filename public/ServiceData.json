@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Dr.jarip",
+      "Work": "Expert Doctor",
+      "img": "https://i.ibb.co/D1znFJY/team4.jpg",
+      "Image": "https://i.ibb.co/D1znFJY/team4.jpg",
+      "drescription": "Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis. Phasellus venenatis",
+      "id": 1
+    },
+    {
+      "name": "Dr.Shadin",
+      "Work": "Diagnosis",
+      "img": "https://i.ibb.co/0nvJk1v/tream5.jpg",
+      "Image": "https://i.ibb.co/3BvBSN5/card.jpg",
+      "drescription": "Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis. Phasellus venenatis",
+      "id": 2
+    },
+    {
+      "name": "Dr.Sofi",
+      "Work": "Pathology",
+      "Image": "https://i.ibb.co/n1pKRmF/young-scientist-looking-through-microscope-2yh60nw-1357884404.jpg",
+      "img": "https://i.ibb.co/kX11cdf/team3.jpg",
+      "drescription": "Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis. Phasellus venenatis",
+      "id": 3
+    },
+    {
+      "name": "Dr.Sakiba",
+      "Work": "Dental Care",
+      "img": "https://i.ibb.co/7XN7MqX/team-1.jpg",
+      "Image": "https://i.ibb.co/0t8BSr0/pediatric-dental-advancements.jpg",
+      "drescription": "Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis. Phasellus venenatis",
+      "id": 4
+    },
+    {
+      "name": "Dr.Saima islam",
+      "Work": "Cardiology",
+      "img": "https://i.ibb.co/yY9ppsm/team2.jpg",
+      "Image": "https://i.ibb.co/ZY2G7kJ/nm-ten-signs-cardiologist-feature.jpg",
+      "drescription": "Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis. Phasellus venenatis",
+      "id": 5
+    },
+    {
+      "name": "Dr.Sarah Tylor",
+      "Work": "Medicine",
+      "img": "https://i.ibb.co/1JWWsQH/6.jpg",
+      "Image": "https://i.ibb.co/2jRbfTY/various-meds-pills-capsules-blisters-260nw-14098233dfdf41.jpg",
+      "drescription": "Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis. Phasellus venenatis",
+      "id": 6
+    }
+  ]

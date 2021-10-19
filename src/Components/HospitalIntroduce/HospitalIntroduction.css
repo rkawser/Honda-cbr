@@ -1,0 +1,45 @@
+
+
+.intro-img{
+    background-image: url('https://i.ibb.co/C8f75Fy/home-bg7-97b95402a28d014b9b3f.jpg');
+   height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.intro-text{
+    text-align: justify;
+    padding: 20px;
+ border-left: 10px solid #f1f3f5;
+ color: white;
+}
+
+.intro-text h1{
+    font-weight: bold;
+}
+
+.intro-img{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.special-icon:hover{
+    color: white;
+    font-size: 80px;
+    border:10px solid black ;
+    border-radius: 50%;
+    background-color:black;
+}
+
+
+.special-icon{
+    color: black;
+    font-size: 80px;
+    border:10px solid white ;
+    border-radius: 50%;
+    background-color:white;
+}
