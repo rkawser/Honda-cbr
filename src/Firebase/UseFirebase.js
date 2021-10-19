@@ -9,15 +9,19 @@ import { getAuth,
 import { useEffect, useState } from "react";
 
 
+
 initializeAthentication();
 const useFirebase =()=>{
-    const [user,setUser]=useState({})
+const [user,setUser]=useState({})
+ const [isloading,setIsloading]=useState(true)
 const googleProvider = new GoogleAuthProvider();
 const auth = getAuth();
 
 
-    const signInUsingGoogle =()=>{
-        signInWithPopup(auth,googleProvider)
+const signInUsingGoogle =()=>{
+
+ signInWithPopup(auth,googleProvider)
+        setIsloading(true)
         .then(result=>{
             setUser(result.user)
             console.log(result);
@@ -25,6 +29,7 @@ const auth = getAuth();
         .catch(error=>{
             console.log(error.message);
         })
+        .finally(()=>setIsloading(false))
     }
 
     const logOut =()=>{
@@ -32,14 +37,17 @@ const auth = getAuth();
         .then(()=>{
             setUser({})
         })
-    
+       
     }
     useEffect(()=>{
+        
         onAuthStateChanged(auth, (user) => {
             if (user) {
              setUser(user)
             }
+            setIsloading(false)
           });
+         
     },[])
 
     const handleRegister =(email,Password)=>{
@@ -63,7 +71,8 @@ const auth = getAuth();
         logOut,
         user,
         handleRegister,
-        handleLogin
+        handleLogin,
+        isloading
 
     }
 }

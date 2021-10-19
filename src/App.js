@@ -12,6 +12,7 @@ import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import PrivateRoute from './Private/PrivateRoute';
 import About from './Components/About/About';
+import Doctor from './Components/Doctor/Doctor';
 
 function App() {
   return (
@@ -37,9 +38,13 @@ function App() {
         <Login></Login>
         </Route>
 
-        <Route path='/about'>
+        <PrivateRoute  path='/doctor'>
+        <Doctor></Doctor>
+        </PrivateRoute>
+
+        <PrivateRoute path='/about'>
         <About></About>
-        </Route>
+        </PrivateRoute>
 
         <Route  path='/register'>
        <Register></Register>

@@ -6,7 +6,7 @@ import useAuth from '../../AuthProvider/UseAuth';
 
 const Header = () => {
   const{user,logOut}=useAuth();
-  
+
 return (
         <>
             <Navbar className='px-2' bg="light" expand="lg">
@@ -23,7 +23,7 @@ return (
             <Nav.Link as={Link }to='/home'>Home</Nav.Link>
             <Nav.Link as={Link} to="/service">Services</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
-            <Nav.Link href="#action2">Doctor</Nav.Link>
+            <Nav.Link as={Link} to="/doctor">Doctor</Nav.Link>
            
           </Nav>
           <Form className="d-flex">
