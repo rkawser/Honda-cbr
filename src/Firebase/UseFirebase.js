@@ -19,9 +19,8 @@ const auth = getAuth();
 
 
 const signInUsingGoogle =()=>{
-
- signInWithPopup(auth,googleProvider)
-        setIsloading(true)
+       setIsloading(true)
+ signInWithPopup(auth,googleProvider)   
         .then(result=>{
             setUser(result.user)
             console.log(result);
