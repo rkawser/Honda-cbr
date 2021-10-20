@@ -1,3 +1,12 @@
-.login-form{
-    border: 1px solid gray;
+
+
+.login-image{
+    background-image: url('https://i.ibb.co/SdX5wzL/1-8dfb4d772b7cdef52e88.jpg');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+

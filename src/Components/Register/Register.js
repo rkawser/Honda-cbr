@@ -29,8 +29,8 @@ const userRegister =()=>{
 
     return (
         <div>
-        <Container>
-            <Row>
+        <Container fluid>
+            <Row className='register-image'>
                 <Col md={12}>
                <div className='my-5'>
               <div >

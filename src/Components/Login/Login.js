@@ -23,8 +23,8 @@ const Login = () => {
     }
 return (
         <div>
-           <Container>
-               <Row>
+           <Container fluid>
+               <Row className='login-image'>
                    <Col md={12}>
                   <div className='my-5'>
                  <div>
