@@ -27,9 +27,9 @@ return (
            
           </Nav>
           <Form className="d-flex">
-           {user.email && <h5 className='me-2'>{user.displayName}</h5>}
+           {user.displayName && <h5 className='me-2'>{user.displayName}</h5>}
             <Link to='/login'>
-           {user.email ? <button onClick={logOut} className='btn btn-danger'>LogOut</button> : <Button  className='btn btn-primary' variant="outline-success">Login</Button>}
+           {user.displayName ? <button onClick={logOut} className='btn btn-danger'>LogOut</button> : <Button  className='btn btn-primary' variant="outline-success">Login</Button>}
 
             </Link>                    
           </Form>

@@ -44,8 +44,8 @@
     color: #fff;
    
 }
-::placeholder{
-    color: white;
+.footer-style::placeholder{
+    color: white!important;
 }
 
 .footer-btn{

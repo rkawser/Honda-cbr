@@ -4,7 +4,8 @@ import { getAuth,
          GoogleAuthProvider,
          signOut,onAuthStateChanged,
          createUserWithEmailAndPassword,
-         signInWithEmailAndPassword 
+         signInWithEmailAndPassword ,
+         updateProfile 
         } from "firebase/auth";
 import { useEffect, useState } from "react";
 
@@ -49,19 +50,33 @@ const signInUsingGoogle =()=>{
          
     },[])
 
-    const handleRegister =(email,Password)=>{
+    const handleRegister =(email,Password,name)=>{
         createUserWithEmailAndPassword(auth,email,Password)
         .then(result=>{
            console.log(result.user)
+           setUser(result.user)
+           username(name)
         })
         .catch(error=>{
             console.log(error.message);
         })
     }
 
+    const username =(name)=>{
+        updateProfile (auth.currentUser,{
+          displayName:name
+        })
+        .then(()=>{
+
+        })
+        .catch(error=>{
+            console.log(error.message);
+        })
+    }
     const handleLogin =(email,Password)=>{
         signInWithEmailAndPassword(auth,email,Password)
         .then(result=>{
+            setUser(result.user)
             console.log(result.user);
         })
     }
@@ -71,7 +86,8 @@ const signInUsingGoogle =()=>{
         user,
         handleRegister,
         handleLogin,
-        isloading
+        isloading,
+        
 
     }
 }

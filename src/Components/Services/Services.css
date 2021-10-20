@@ -19,3 +19,7 @@
 .service-image h1{
     font-weight: bold;
 }
+
+::placeholder{
+    color: black;
+}
